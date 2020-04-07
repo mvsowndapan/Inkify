@@ -1,1 +1,6 @@
-<p>{{ note }}</p>
+<div>
+  <div class="card_content" (click)="on_note_click(note)">
+    <p>{{ note }}</p>
+  </div>
+  <button class="card_fav" (click)="add_to_favorites(note)">Fav</button>
+</div>

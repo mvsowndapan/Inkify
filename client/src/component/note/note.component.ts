@@ -7,8 +7,12 @@ import { Component, OnInit, Input } from "@angular/core";
 })
 export class NoteComponent implements OnInit {
   @Input() note;
-
   constructor() {}
-
   ngOnInit(): void {}
+  add_to_favorites(note) {
+    console.log(note);
+  }
+  on_note_click(note) {
+    console.log(note);
+  }
 }

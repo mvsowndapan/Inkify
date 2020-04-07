@@ -1,0 +1,11 @@
+{
+  "1001": { "status": 201, "msg": "Notes fetched successfully." },
+  "1002": { "status": 201, "msg": "Note added successfully." },
+  "1003": { "status": 201, "msg": "Note update successfully." },
+  "1004": { "status": 201, "msg": "Note delete successfully." },
+
+  "4001": { "status": 400, "msg": "Unable to fetch notes." },
+  "4002": { "status": 400, "msg": "Unable to added note." },
+  "4003": { "status": 400, "msg": "Unable to update note." },
+  "4004": { "status": 400, "msg": "Unable to delete note." }
+}
